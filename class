@@ -84,11 +84,7 @@ def add_new_product():
 year)
  print("Product added successfully. Product ID:", product._product_id)
 def display_product_details():
- # Assuming the user enters the product ID to display details
- product_id = int(input("Enter product ID: "))
- # Here you would retrieve the product details from your system based on 
-the product ID
- # For now, let's just create a sample product and display its details
+
  sample_product = Product("Sample Product", 10.99, "Sample Inc.", 500, 
 "2024-12-31", 2024)
  sample_product.print_details()
@@ -133,12 +129,7 @@ year, calories, components)
  print("Healthy Product added successfully. Product ID:", 
 product._product_id)
 def display_healthy_product_details():
- # Assuming the user enters the product ID to display details
- product_id = int(input("Enter product ID: "))
- # Here you would retrieve the product details from your system based on 
-the product ID
- # For now, let's just create a sample healthy product and display its 
-details
+
  sample_healthy_product = Healthy("Sample Healthy Product", 15.99, 
 "Healthy Inc.", 300, "2024-12-31", 2024, 200, "Vitamins, Minerals")
  sample_healthy_product.print_details()
